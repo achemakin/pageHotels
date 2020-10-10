@@ -1,0 +1,84 @@
+.services { 
+  margin: 56px 0 0;
+}
+
+.servises__list { 
+  margin: 22px 0 0;
+  padding: 0;
+
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+
+  list-style: none;
+}
+
+.servises__item { 
+  flex: 0 1 calc(51% - 24px);
+  
+  padding: 200px 108px 32px 45px;  
+  margin-bottom: 24px;
+  margin-right: 24px;
+
+  background-color: #fff;
+  background-repeat: no-repeat;
+
+  border-radius: 11px;
+}
+
+.servises__item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.servises__item:nth-last-child(-n+2) {
+  margin-bottom: 0;
+}
+
+.servises__item--exclusive {
+  background-image: url("../img/foto-2_1.png");
+}
+
+.servises__item--banqueting {
+  background-image: url("../img/foto-2_2.png");
+}
+
+.servises__item--sauna {
+  background-image: url("../img/foto-2_3.png"); 
+}
+
+.servises__item--parking {
+  background-image: url("../img/foto-2_4.png");
+}
+
+.servises__link { 
+  position: relative;
+  padding-right: 20px;
+
+  font-size: 22px;
+  font-weight: 500;
+  color: #cc9933;
+}
+
+.servises__link:focus {
+  outline: none;
+}
+
+.servises__link::after {
+  content: url("../img/mark_more1.png");
+  
+  position: absolute;
+  top: 2px;
+  right: 0;
+
+  transition: transform 0.5s;
+}
+
+.servises__link:hover::after,
+.servises__link:focus::after {
+  transform: translateX(5px);
+}
+
+.servises__text {
+  margin: 6px 0 0 0; 
+  line-height: 32px;
+}

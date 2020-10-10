@@ -1,0 +1,53 @@
+.write-us {
+  display: inline-block;
+  vertical-align: top; 
+  margin: 201px 0 0 175px;
+  width: 340px;
+}
+
+.write-us__title { 
+  padding-left: 31px;
+}
+
+.write-us__form { 
+  margin-top: 36px;
+
+  color: #999;
+}
+
+.write-us__name,
+.write-us__phone,
+.write-us__message,
+.write-us__button {
+  width: 100%;
+
+  border: none;
+  border-radius: 12px;  
+}
+
+.write-us__name,
+.write-us__phone { 
+  padding: 26px 20px;
+  margin-bottom: 23px;
+}
+
+.write-us__message {
+  padding: 15px 20px;
+  margin-bottom: 18px;
+  height: 110px;
+  
+  resize: none;
+}
+
+.write-us__button {
+  padding: 26px 25px;
+  
+  background-color: #cc9933;
+
+  font-weight: 700;
+  color: #fff; 
+
+  text-align: center;
+  
+  cursor: pointer;
+}

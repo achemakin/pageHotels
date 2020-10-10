@@ -1,0 +1,90 @@
+.plus { 
+  margin: 68px 0 0 0;
+}
+
+.plus__list { 
+  margin: 22px 0 0;
+  padding: 0;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+
+  list-style: none;
+}
+
+.plus__item { 
+  flex: 0 1 calc(29.6% - 72px);
+
+  padding: 115px 44px 32px;
+  margin-bottom: 24px;
+  margin-right: 24px; 
+
+  background-color: #fff;
+
+  border-radius: 11px;
+  line-height: 32px;
+}
+
+.plus__item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.plus__item:nth-last-child(-n + 4) {
+  margin-bottom: 0;
+}
+
+.plus__item--bathtub { 
+  background-image: url("../img/bathtub.svg");
+  background-repeat: no-repeat;
+  background-position: 44px 42px;
+  background-size: 23%;
+}
+
+.plus__item--hanger { 
+  background-image: url("../img/hanger.svg");
+  background-repeat: no-repeat;
+  background-position: 45px 43px;
+  background-size: 21.7%;
+}
+
+.plus__item--heating { 
+  background-image: url("../img/heating.svg");
+  background-repeat: no-repeat;
+  background-position: 44px 39px;
+  background-size: 25%;
+}
+
+.plus__item--hotel-key { 
+  background-image: url("../img/hotel-key.svg");
+  background-repeat: no-repeat;
+  background-position: 45px 42px;
+  background-size: 23.3%;
+}
+
+.plus__item--parking { 
+  background-image: url("../img/parking.svg");
+  background-repeat: no-repeat;
+  background-position: 44px 43px;
+  background-size: 22%;
+}
+
+.plus__item--reception { 
+  background-image: url("../img/reception.svg");
+  background-repeat: no-repeat;
+  background-position: 45px 42px;
+  background-size: 23%;
+}
+
+.plus__item--security-box { 
+  background-image: url("../img/security-box.svg");
+  background-repeat: no-repeat;
+  background-position: 44px 40px;
+  background-size: 24.6%;
+}
+
+.plus__item--swimming-pool { 
+  background-image: url("../img/swimming-pool.svg");
+  background-repeat: no-repeat;
+  background-position: 45px 43px;
+  background-size: 22%;
+}

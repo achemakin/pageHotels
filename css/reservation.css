@@ -1,0 +1,164 @@
+.reservation {
+  display: flex; 
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Быстрая бронь */
+
+.fast {
+  width: 100%;
+  max-width: 518px;
+}
+
+.fast__form { 
+  margin: 22px 0 0;
+}
+
+.fast__input { 
+  display: block;
+  margin-bottom: 24px;
+  padding: 26px 20px;
+
+  width: 100%;
+
+  background-color: #fff;
+  border: none;
+  border-radius: 13px;
+}
+
+.fast__input:last-of-type {
+  margin-bottom: 0;
+}
+
+.fast__input::placeholder {
+  color: #999999;
+}
+
+.fast__block {
+  margin-top: 24px;
+
+  display: flex;
+  align-items: center;
+}
+
+.fast__button {  
+  padding: 26px 30px;
+
+  background-color: #cc9933;
+  border: none;
+  border-radius: 12px;
+
+  font-weight: 700;
+  color: #fff;
+
+  cursor: pointer;
+}
+
+.fast__text { 
+  margin-left: 30px;
+  
+  color: #999999;
+}
+
+.fast__amount { 
+  color: #cc9933;
+}
+
+/* Спецпредложения */
+
+.offer { 
+  width: 100%;
+  max-width: 595px; 
+}
+
+.swiper {
+  margin-top: 16px;
+}
+
+.swiper-container { 
+  width: 100%;  
+}
+
+.swiper-wrapper { 
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+
+  list-style: none;
+}
+
+.swiper-slide { 
+  display: inline-block;  
+  padding: 273px 172px 40px 40px;
+  width: 100%;
+  max-width: 595px; 
+
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slide1 {
+  background-image: url("../img/foto-1_1.png");
+}
+
+.slide2 {
+  display: none;
+  background-image: url("../img/foto-1_2.png");
+}
+
+.slide3 {
+  display: none;
+  background-image: url("../img/foto-1_3.png");
+}
+
+.slide__title { 
+  margin: 0; 
+  font-size: 66px;
+  line-height: 58px;
+
+  color: #fff;
+}
+
+.slide__block {
+  margin-top: 30px;
+
+  display: flex;
+  align-items: center;
+}
+
+.slide__prise {  
+  font-size: 35px;
+  color: rgba(255, 255, 255, .5);
+}
+
+.slide__link {
+  position: relative;
+  margin: 5px 0 0 42px; 
+  padding: 0 15px 0 0;
+
+  color: #ffcc66;
+}
+
+.slide__link:focus {
+  outline: none;
+}
+
+.slide__link::after {
+  content: url("../img/mark_more.png");
+  
+  display: inline-block;  
+  position: relative;
+  top: 4px;
+  right: -6px;
+
+  transition: transform 0.5s;
+}
+
+.slide__link:hover::after,
+.slide__link:focus::after {
+  transform: translateX(5px);
+}

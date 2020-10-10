@@ -1,0 +1,106 @@
+.page-footer { 
+  margin-top: 22px;
+}
+
+.page-footer__container { 
+  display: flex;
+  justify-content: space-between;
+
+  width: 1168px;
+  padding: 41px 51px 41px 52px;
+
+  background-color: #333;
+  background-image: url("../img/sun.png");
+  background-repeat: no-repeat;
+  background-position: 80.7% 100%;
+  
+  border-radius: 12px;
+
+  color: #fff;
+}
+
+.info { 
+  width: 30%;
+  line-height: 32px;
+}
+
+.info__copyright {
+  margin: 0;
+}
+
+.info__not-public {
+  margin: 32px 0 0 0
+}
+
+.info__link { 
+  display: block;
+  margin-top: 32px;
+
+  color: #cc9933;
+}
+
+.connect { 
+  width: 48.3%;
+  margin: 4px 0 0;
+  line-height: 24px;
+}
+
+.connect__text { 
+  margin: 0;
+}
+
+.connect__phones,
+.connect__emails {  
+  padding: 0; 
+  list-style: none;
+
+  color: #cc9933;
+}
+
+.connect__phones {
+  margin: 32px 0 0;
+}
+
+.connect__emails { 
+  margin: 24px 0 0;  
+}
+
+.social-links {  
+  margin: 7px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-links__item {
+  margin-bottom: 20px;
+}
+
+.social-links__link { 
+  display: block;
+  width: 25px;
+  height: 25px;
+
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+}
+
+.social-links__link_tripadvisor { 
+  background-image: url("../img/tripadvisor.svg");
+}
+
+.social-links__link_twitter { 
+  background-image: url("../img/twitter.svg");
+}
+
+.social-links__link_facebook { 
+  background-image: url("../img/facebook.svg");
+}
+
+.social-links__link_vk { 
+  background-image: url("../img/social.svg");
+}
+
+.social-links__link_google { 
+  background-image: url("../img/google-plus-social-logotype.svg");
+}

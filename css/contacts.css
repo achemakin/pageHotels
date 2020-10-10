@@ -1,0 +1,76 @@
+.contacts {
+  display: inline-block; 
+  margin-top: 66px;
+  width: 472px;
+}
+
+.contacts__wrapper {
+  margin-top: 22px;
+  padding: 21px 45px 44px; 
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.address { 
+  font-style: normal;
+}
+
+.address__items {
+  border-collapse: collapse;
+}
+
+.address__items td {
+  padding: 26px 0 23px 0;
+  
+  border-bottom: 1px solid #ccc;
+  vertical-align: top;
+}
+
+.address__items td:first-child {
+  width: 38%; 
+
+  font-size: 22px; 
+  font-weight: 700;
+  color: #666;
+}
+
+.address__items td:last-child {
+  line-height: 24px;
+}
+
+.phone__list,
+.email__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.phone__link,
+.email__link { 
+  color: #cc9933;
+}
+
+.email__item { 
+  color: #999;
+}
+
+.address__items .schedule__text { 
+  padding-right: 42px;
+}
+
+.address__button {
+  margin-top: 44px;
+  padding: 25px 20px;
+
+  width: 214px;
+
+  border: 1px solid #cc9933;
+  border-radius: 12px;
+  background-color: transparent;
+
+  font-weight: 700;
+
+  color: #cc9933;
+
+  cursor: pointer;
+}

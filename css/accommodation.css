@@ -1,0 +1,156 @@
+.accommodation { 
+  margin: 68px 0 0;
+}
+
+.accommodation__list { 
+  margin: 22px 0 0;  
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+
+  list-style: none;
+}
+
+.accommodation__item {
+  flex: 0 1 calc(36.07% - 48px);
+  
+  margin-bottom: 25px;
+  margin-right: 24px; 
+  
+  border-radius: 12px; 
+  
+  background: #fff;
+}
+
+.accommodation__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.accommodation__item:nth-last-child(-n+3) {
+  margin-bottom: 0; 
+}
+
+.accommodation__card {
+  padding: 0 0 43px;
+}
+
+.accommodation__wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  margin: 31px 0 0;
+  padding: 0 44px 0 44px;
+}
+
+.accommodation__prise { 
+  margin: 0;
+
+  color: #969696;
+}
+
+.accommodation__prise::after {
+  content: "/ ночь";
+  font-weight: 500;
+  color: #333;
+}
+
+.accommodation__sum { 
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+
+}
+
+.accommodation__hotel { 
+  margin: 14px 0 0;
+  padding: 0 0 0 44px;
+
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.accommodation__location {
+  margin: 16px 0 0; 
+  padding: 0 0 0 44px;
+  color: #999999;
+}
+
+.accommodation__rating { 
+  margin-top: 5px;
+}
+
+.accomodation__star { 
+  margin-top: 5px;
+  margin-right: 2px;
+}
+
+.accomodation__star:last-of-type {
+  margin-right: 0;
+}
+
+.accomodation__stars {
+  margin-top: 5px;
+}
+
+.accommdation__link {
+  margin: 20px 0 0 44px;
+  display: inline-block;
+  padding: 12px 19px 11px;
+  border: 1px solid #cc9933;
+  border-radius: 12px;
+  
+  font-weight: 700;
+  color: #cc9933;
+}
+
+.accommodation__item:last-child {
+  position: relative;
+
+  padding-left: 39px;
+  padding-bottom: 51px;
+
+  display: flex;
+  align-items: flex-end;
+
+  background: url("../img/foto-3_9.png") 50% no-repeat;
+  background-size: cover;
+}
+
+.accommdation__link-all {
+  padding-right: 22px;
+  
+  font-size: 22px;
+  font-weight: 500; 
+  color: #fff;
+}
+
+.accommdation__link-all:focus {
+  outline: none;
+}
+
+.accommdation__link-all::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+}
+
+.accommdation__link-all::after {
+  content: url(../img/mark_more_white.png);
+
+  display: inline-block;
+  position: relative;
+  bottom: -2px;
+  right: -13px;
+  transition: transform 0.5s;
+}
+
+.accommdation__link-all:hover::after,
+.accommdation__link-all:focus::after {
+  transform: translateX(5px);  
+}
